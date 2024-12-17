@@ -1,0 +1,92 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Sat Oct 26 06:14:31 2024
+[*]
+[dumpfile] "D:\Projects\RISCV_single_cycle_core\Single_Cycle.vcd"
+[dumpfile_mtime] "Fri Oct 25 17:20:08 2024"
+[dumpfile_size] 4188
+[savefile] "D:\Projects\RISCV_single_cycle_core\Single_Cycle.gtkw"
+[timestart] 0
+[size] 1920 983
+[pos] -896 -475
+*-6.539687 104 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Single_Cycle_Top_Tb.
+[treeopen] Single_Cycle_Top_Tb.Single_Cycle_Top.
+[treeopen] Single_Cycle_Top_Tb.Single_Cycle_Top.cut.
+[sst_width] 288
+[signals_width] 314
+[sst_expanded] 1
+[sst_vpaned_height] 291
+@28
+Single_Cycle_Top_Tb.clk
+Single_Cycle_Top_Tb.rst
+@800200
+-PC
+@200
+-
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.prog.pc_next[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.prog.pc_out[31:0]
+@1000200
+-PC
+@800200
+-Instruction Memory
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.im.A[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.im.RD[31:0]
+@1000200
+-Instruction Memory
+@800200
+-PC_adder
+@200
+-
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.pa.a[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.pa.b[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.pa.c[31:0]
+@1000200
+-PC_adder
+@800200
+-sign extend
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.se.imm_ext[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.se.in[31:0]
+@1000200
+-sign extend
+@800200
+-register file
+@200
+-
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.A1[4:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.A2[4:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.A3[4:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.RD1[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.RD2[31:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.WD3[31:0]
+@28
+Single_Cycle_Top_Tb.Single_Cycle_Top.rf.WE3
+@1000200
+-register file
+@800200
+-control unit
+@200
+-
+@28
+Single_Cycle_Top_Tb.Single_Cycle_Top.cut.ALUOp[1:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.cut.funct3[2:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.cut.ALUControl[2:0]
+Single_Cycle_Top_Tb.Single_Cycle_Top.cut.RegWrite
+@800200
+-data memory
+@200
+-
+@22
+Single_Cycle_Top_Tb.Single_Cycle_Top.dm.A[31:0]
+@23
+Single_Cycle_Top_Tb.Single_Cycle_Top.dm.RD[31:0]
+@1000200
+-data memory
+-control unit
+[pattern_trace] 1
+[pattern_trace] 0
